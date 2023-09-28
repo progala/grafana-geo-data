@@ -1,0 +1,100 @@
+{
+    "datasource": null,
+    "fieldConfig": {
+      "defaults": {
+        "custom": {},
+        "mappings": [],
+        "thresholds": {
+          "mode": "absolute",
+          "steps": [
+            {
+              "color": "green",
+              "value": null
+            },
+            {
+              "color": "red",
+              "value": 80
+            }
+          ]
+        },
+        "unit": "short"
+      },
+      "overrides": []
+    },
+    "gridPos": {
+      "h": 9,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    },
+    "id": 1,
+    "links": [],
+    "options": {
+      "focusNodeLinkWidth": 2,
+      "globalNodeLinkWidth": 1,
+      "maxZoom": 3,
+      "minZoom": 0.1,
+      "nodeBorder": 0,
+      "nodeBorderWidth": 1,
+      "nodeCustomIcon": "",
+      "nodeFont": {
+        "size": 12,
+        "style": {},
+        "weight": "normal"
+      },
+      "nodeIconSize": 20,
+      "nodeImage": "",
+      "nodeImageSize": 50,
+      "nodeLink": "line",
+      "nodeShape": "circle",
+      "nodeShadowSize": 0,
+      "nodesAspect": "circle",
+      "showLegend": true
+    },
+    "pluginVersion": "1.0.0",
+    "targets": [],
+    "timeFrom": null,
+    "timeShift": null,
+    "title": "Node Graph Example",
+    "type": "node-graph",
+    "typeLogoUrl": "",
+    "timepicker": {},
+    "annotations": {
+      "list": [
+        {
+          "builtIn": 1,
+          "datasource": "-- Grafana --",
+          "enable": true,
+          "hide": true,
+          "iconColor": "rgba(0, 211, 255, 1)",
+          "name": "Annotations & Alerts",
+          "type": "dashboard"
+        }
+      ]
+    },
+    "nodes": [
+      {
+        "id": "node1",
+        "name": "Node 1",
+        "x": 100,
+        "y": 100,
+        "size": 30
+      },
+      {
+        "id": "node2",
+        "name": "Node 2",
+        "x": 300,
+        "y": 100,
+        "size": 30
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge1",
+        "source": "node1",
+        "target": "node2",
+        "label": "Connection"
+      }
+    ]
+  }
+  
